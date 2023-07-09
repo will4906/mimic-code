@@ -30,7 +30,7 @@ do
 
             # skip certain tables where order matters
             skip=0
-            for skip_table in meld icustay_times first_day_sofa kdigo_stages vasoactive_agent norepinephrine_eqivalent_dose
+            for skip_table in meld icustay_times first_day_sofa kdigo_stages vasoactive_agent norepinephrine_equivalent_dose
             do
               if [[ "${tbl}" == "${skip_table}" ]]; then
                 skip=1
